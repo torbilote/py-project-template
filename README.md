@@ -1,7 +1,6 @@
-# py-project-template
-py-project-template
+# Project template
 
-# core tools and dependencies
+# Core tools and dependencies
 1. python==3.12
 2. pip==24.2
 3. pipx==1.7.1
@@ -13,7 +12,7 @@ py-project-template
 9. pydantic==2.8.2
 10. loguru==0.7.2
 
-## Pip installation
+## Pip
 
 `py -m ensurepip`
 
@@ -23,26 +22,29 @@ py-project-template
 
 `rm pip.ini`
 
-# Pipx installation
+# Pipx
 
 `py -m pip install pipx==X.X.X`
 
 `pipx ensurepath`
 
-# Taskfile installation
+# Taskfile
 
 `sh -c "$(curl --location https://taskfile.dev/install.sh)" -- -d -b "C:\\Users\\<username>\\.local\\bin" `
 
 add env path task/bin `C:/Users/<username>/.local\\bin`
 
-# Venv installation
+# Venv
 
 `py -m venv .venv`
 
 `. .venv/Scripts/Activate`
 
-# Depencendcies installation
+# Depencendcies
 
 `py -m pip install -r requirements.txt`
 
 `py -m pip install -r requirements-dev.txt`
+
+# Taskfile
+

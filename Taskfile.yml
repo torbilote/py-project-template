@@ -1,0 +1,12 @@
+version: '3'
+
+tasks:
+  ruff:
+    cmds:
+      - ruff format . && ruff check . --fix
+  pytest:
+    cmds:
+      - pytest . -vv
+  mypy:
+    cmds:
+      - mypy .
